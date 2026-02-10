@@ -1,0 +1,53 @@
+{
+  "gesture": "hi",
+  "frames": [
+    {
+      "comment": "1. Hand rising to the wave starting position",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350] },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [300, 180],
+        "WRIST": [260, 120],
+        "FINGERS": [[230, 80], [245, 65], [265, 60], [285, 65], [300, 80]]
+      }
+    },
+    {
+      "comment": "2. WAVE LEFT: Wrist tilts toward the head",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350] },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [290, 170],
+        "WRIST": [230, 110],
+        "FINGERS": [[190, 80], [200, 60], [220, 50], [240, 60], [255, 80]]
+      }
+    },
+    {
+      "comment": "3. WAVE RIGHT: Wrist tilts away from the head",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350] },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [320, 170],
+        "WRIST": [300, 110],
+        "FINGERS": [[270, 80], [285, 60], [310, 50], [335, 60], [350, 80]]
+      }
+    },
+    {
+      "comment": "4. RETURN: Hand moving back to side",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350] },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [280, 250],
+        "WRIST": [260, 300],
+        "FINGERS": [[250, 320], [255, 325], [260, 325], [265, 325], [270, 320]]
+      }
+    }
+  ]
+}

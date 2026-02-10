@@ -1,0 +1,80 @@
+{
+  "gesture": "food",
+  "frames": [
+    {
+      "comment": "1. START: Hand rising toward face, fingers spreading slightly",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [280, 230],
+        "WRIST": [190, 180],
+        "FINGERS": [[165, 150], [175, 140], [190, 135], [205, 140], [215, 155]]
+      }
+    },
+    {
+      "comment": "2. FIRST TOUCH: Fingers clustered tightly at the mouth",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [230, 170],
+        "WRIST": [155, 135],
+        "FINGERS": [[144, 112], [148, 108], [152, 108], [156, 112], [150, 120]]
+      }
+    },
+    {
+      "comment": "3. BOUNCE: Hand pulls back briefly",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [250, 190],
+        "WRIST": [180, 155],
+        "FINGERS": [[165, 130], [175, 120], [185, 120], [195, 130], [185, 145]]
+      }
+    },
+    {
+      "comment": "4. SECOND TOUCH: Repeated contact with mouth",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [230, 170],
+        "WRIST": [155, 135],
+        "FINGERS": [[144, 112], [148, 108], [152, 108], [156, 112], [150, 120]]
+      }
+    },
+    {
+      "comment": "5. RETURN: Moving back to neutral position",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [280, 250],
+        "WRIST": [260, 300],
+        "FINGERS": [[250, 320], [255, 325], [260, 325], [265, 325], [270, 320]]
+      }
+    }
+  ]
+}

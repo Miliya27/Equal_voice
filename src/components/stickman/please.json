@@ -1,0 +1,65 @@
+{
+  "gesture": "please",
+  "frames": [
+    {
+      "comment": "1. START: Hand on the right side of the chest",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [260, 260],
+        "WRIST": [180, 280],
+        "FINGERS": [[140, 240], [150, 230], [165, 230], [180, 240], [185, 260]]
+      }
+    },
+    {
+      "comment": "2. TOP: Hand moving up and across the center",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [230, 220],
+        "WRIST": [150, 240],
+        "FINGERS": [[110, 200], [120, 190], [135, 190], [150, 200], [155, 220]]
+      }
+    },
+    {
+      "comment": "3. LEFT: Hand moving to the left side of the chest",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [200, 260],
+        "WRIST": [120, 280],
+        "FINGERS": [[80, 240], [90, 230], [105, 230], [120, 240], [125, 260]]
+      }
+    },
+    {
+      "comment": "4. BOTTOM: Hand moving across the bottom of the circle",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { 
+        "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], 
+        "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] 
+      },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [230, 300],
+        "WRIST": [150, 320],
+        "FINGERS": [[110, 280], [120, 270], [135, 270], [150, 280], [155, 300]]
+      }
+    }
+  ]
+}

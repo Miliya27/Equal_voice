@@ -1,0 +1,35 @@
+{
+  "gesture": "yes",
+  "frames": [
+    {
+      "comment": "1. START: Fist tilted up - Fingers staggered for visibility",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [280, 150],
+        "WRIST": [260, 100],
+        "FINGERS": [
+          [260, 40], 
+          [250, 90], [255, 95], [265, 95], [270, 90]
+        ]
+      }
+    },
+    {
+      "comment": "2. NOD DOWN: Hand tilts down - Finger sequence remains distinct",
+      "FACE": { "MOUTH": [150, 115] },
+      "TORSO": { "TL": [50, 200], "TR": [250, 200], "BL": [70, 450], "BR": [230, 450] },
+      "L_ARM": { "SHOULDER": [50, 200], "ELBOW": [30, 280], "WRIST": [40, 350], "FINGERS": [[35, 360], [38, 365], [42, 365], [45, 360], [40, 340]] },
+      "R_ARM": {
+        "SHOULDER": [250, 200],
+        "ELBOW": [280, 150],
+        "WRIST": [260, 130],
+        "FINGERS": [
+          [260, 190], 
+          [250, 140], [255, 145], [265, 145], [270, 140]
+        ]
+      }
+    }
+  ]
+}
