@@ -8,6 +8,20 @@ export default function Learning() {
     "HELLO","STOP","NAME","SORRY",
     "UP","DOWN","FOOD"
   ];
+const signVideos = {
+  YES: "/videos/yes.mp4",
+  THANKYOU: "/videos/thankyou.mp4",
+  NO: "/videos/no.mp4",
+  HELP: "/videos/help.mp4",
+  PLEASE: "/videos/please.mp4",
+  HELLO: "/videos/hello.mp4",
+  STOP: "/videos/stop.mp4",
+  NAME: "/videos/name.mp4",
+  SORRY: "/videos/sorry.mp4",
+  UP: "/videos/up.mp4",
+  DOWN: "/videos/down.mp4",
+  FOOD: "/videos/food.mp4"
+};
 
   const webcamRef = useRef(null);
 
@@ -125,7 +139,8 @@ export default function Learning() {
 
               <button
                 onClick={() => {
-                  setVideo("https://www.youtube.com/embed/dQw4w9WgXcQ");
+                  setVideo(signVideos[s]);
+
                   setCurrent(s);
                 }}
                 className="flex-1 bg-indigo-600 text-white py-2 rounded-md">
