@@ -1,18 +1,63 @@
-# React + Vite
+EqualVoice
+A Web-Based Sign Language Communication Platform
+ Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EqualVoice is a web-based platform designed to bridge the communication gap between deaf / hard-of-hearing individuals and the hearing community by combining sign language interpretation and learning in one solution.
 
-Currently, two official plugins are available:
+ Problem
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+People who rely on sign language face communication barriers due to limited access to tools that support both real-time interpretation and easy learning.
 
-## React Compiler
+ Solution
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+EqualVoice offers:
 
-Note: This will impact Vite dev & build performances.
+Camera-based sign language interpretation
 
-## Expanding the ESLint configuration
+An interactive manual for learning sign language
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A simple, accessible web interface
+
+ Features
+
+Real-time sign-to-text interpretation
+
+Structured learning/manual page
+
+Web-based and beginner-friendly
+
+Accessibility-focused design
+
+ Tech Stack
+
+Frontend: React + Vite
+
+Backend / ML: Python
+
+Hand Tracking: MediaPipe
+
+Languages: JavaScript, Python
+
+Version Control: Git & GitHub
+
+ How It Works
+
+Camera captures hand gestures
+
+MediaPipe extracts hand landmarks
+
+Python processes and maps gestures to signs
+
+Recognized signs are displayed as text
+
+ Future Scope
+
+Support for more sign languages
+
+Improved recognition accuracy
+
+Text-to-speech output
+
+Mobile responsiveness
+
+🏆 Impact
