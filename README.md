@@ -59,5 +59,3 @@ Improved recognition accuracy
 Text-to-speech output
 
 Mobile responsiveness
-
-🏆 Impact
