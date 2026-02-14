@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -U pip setuptools wheel \
 
 COPY . .
 
-CMD ["bash", "-lc", "uvicorn backend.app.api_server:app --host 0.0.0.0 --port $PORT"]
+CMD ["bash", "-lc", "uvicorn app.api_server:app --host 0.0.0.0 --port $PORT"]
